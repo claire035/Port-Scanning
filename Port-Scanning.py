@@ -47,9 +47,9 @@ try:
                                 serv=socket.getservbyport(port)
                         except:
                                 serv=F+'Unknow Service'
-                        print(Z+'Port %s Open Service: %s ' %(por>
-                t1 = datetime.datetime.today()
-                t3=t1-t2
+                        print(Z+'Port %s Open Service: %s ' %(port,serv))
+               # t1 = datetime.datetime.today()
+              #  t3=t1-t2
         print(F+'Scanning Completed on %s'+ip)
 except KeyboardInterrupt:
         print(F+'See You Soon. .....')
