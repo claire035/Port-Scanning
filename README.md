@@ -3,7 +3,7 @@ This tool checks open ports and detects the type of open port, which helps you t
 
 #Download -
 
-git clone 
+git clone https://github.com/claire035/Port-Scanning.git
 
 cd Port-Scanning
 
